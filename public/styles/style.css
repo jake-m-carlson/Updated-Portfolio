@@ -3,6 +3,7 @@ font-family: 'Work Sans', sans-serif;
 font-family: 'Ultra', serif;
  */
 
+ /* "header" main image background */
  header {
      background: url(../images/astonomy-horizontal.jpg);
      background-size: cover;
@@ -13,7 +14,11 @@ font-family: 'Ultra', serif;
      header {
          min-height: 500px;
      }
+     .sidenav {
+         min-width: 500px;
+     }
  }
+ /* below for sidenavbar stationary */
  header, main, footer {
      padding-left: 300px;
  }
@@ -22,3 +27,7 @@ font-family: 'Ultra', serif;
          padding-left: 0;
      }
  }
+ .sidenav-fixed {
+    z-index: 998;
+  }
+  
