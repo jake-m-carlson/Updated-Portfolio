@@ -4,6 +4,9 @@ font-family: 'Ultra', serif;
  */
 
  /* "header" main image background */
+ body {
+     font-family: 'Work Sans', sans-serif;
+ }
  header {
      background: url(../images/astonomy-horizontal.jpg);
      background-size: cover;
