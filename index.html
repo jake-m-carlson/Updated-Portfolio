@@ -21,7 +21,7 @@
     <!-- background image -->
     <header>
 
-        
+
         <!-- <nav class="nav-wrapper deep-purple lighten-4">
             <div class="container">
                 <a href="#" class="brand-logo blue-grey-text text-darken-2">Jake Carlson
@@ -40,35 +40,43 @@
     </header>
 
     <!-- navbar - sidenav - stationary -->
-    <ul id="slide-out" class="sidenav sidenav-fixed deep-purple lighten-4">
+    <div class="row">
         <div class="container">
-            <li>
-                <div class="user-view">
-                    <a href="#logo"><img class="responsive-img" src="public/images/logo.jpg" alt="Jake Logo"></a>
-                    <a href="#name"><span class="blue-grey-text text-darken-2 name">Jake Carlson</span></a>
-                    <a href="#name"><span class="blue-grey-text text-darken-2 email">jake.m.carlson@gmail.com</span></a>
+
+            <ul id="slide-out" class="sidenav sidenav-fixed deep-purple lighten-4">
+                <div class="container">
+                    <li>
+                        <div class="user-view">
+                            <a href="#logo"><img class="responsive-img" src="public/images/logo.jpg"
+                                    alt="Jake Logo"></a>
+                            <a href="#name"><span class="blue-grey-text text-darken-2 name">Jake Carlson</span></a>
+                            <a href="#name"><span
+                                    class="blue-grey-text text-darken-2 email">jake.m.carlson@gmail.com</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#user"><img class="responsive-img" src="public/images/avant-garden2.jpeg"></a>
+                        </div>
+                    </li>
+
+                    <li><a class="blue-grey-text text-darken-2" href="https:www.linkedin.com/in/JakeCarlson1989"
+                            target="_blank"><i class="material-icons">work</i>LinkedIn</a></li>
+
+                    <li><a class="blue-grey-text text-darken-2" href="https://github.com/jake-m-carlson"
+                            target="_blank"><i class="material-icons">code</i>GitHub</a></li>
+
+                    <li><a class="blue-grey-text text-darken-2" href="#"><i class="material-icons">email</i>Email</a>
+                    </li>
+
+                    <li><a class="blue-grey-text text-darken-2" href="#"><i
+                                class="material-icons">format_list_bulleted</i>Resume</a></li>
+
                 </div>
-            </li>
-            <li>
-                <div>
-                    <a href="#user"><img class="responsive-img" src="public/images/avant-garden2.jpeg"></a>
-                </div>
-            </li>
-
-            <li><a class="blue-grey-text text-darken-2" href="https:www.linkedin.com/in/JakeCarlson1989"
-                    target="_blank"><i class="material-icons">work</i>LinkedIn</a></li>
-
-            <li><a class="blue-grey-text text-darken-2" href="https://github.com/jake-m-carlson" target="_blank"><i
-                        class="material-icons">code</i>GitHub</a></li>
-
-            <li><a class="blue-grey-text text-darken-2" href="#"><i class="material-icons">email</i>Email</a></li>
-
-            <li><a class="blue-grey-text text-darken-2" href="#"><i
-                        class="material-icons">format_list_bulleted</i>Resume</a></li>
-
+            </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>
-    </ul>
-
+    </div>
 
     <!-- parallax -->
     <div class="section white">
@@ -86,24 +94,39 @@
         <div class="parallax"><img src="public/images/horshoe-lake.JPG" class="responsive-img"></div>
     </div>
 
-        <!-- previous repos/ projects -->
-        <section class="container section" id="projects">
-                <div class="row">
-                    <div class="col l10 s12 offset-l3">
-                        <div class="carousel carousel-slider">
-                            <a class="carousel-item" href="#one!"><img src="public/images/Gif-tastic.png"></a>
-                            <a class="carousel-item" href="#two!"><img src="public/images/eat-da-burger.png"></a>
-                            <a class="carousel-item" href="#three!"><img src="public/images/Project-Nutrition.png"></a>
-                            <a class="carousel-item" href="#four!"><img src="public/images/Task-Master-3000.png"></a>
-                        </div>
-                    </div>
+    <!-- previous repos/ projects -->
+    <section class="container section" id="projects">
+        <div class="row">
+            <div class="col l10 s12 offset-l3">
+                <div class="carousel carousel-slider" style="height: 310px;">
+                    <a class="carousel-item" href="#one!"><img src="public/images/Gif-tastic.png"></a>
+                    <a class="carousel-item" href="#two!"><img src="public/images/eat-da-burger.png"></a>
+                    <a class="carousel-item" href="#three!"><img src="public/images/Project-Nutrition.png"></a>
+                    <a class="carousel-item" href="#four!"><img src="public/images/Task-Master-3000.png"></a>
                 </div>
-            </section>
-        
-            <!-- parallax -->
-            <div class="parallax-container">
-                    <div class="parallax"><img src="public/images/barcelona.jpg" class="responsive-img"></div>
-                </div>
+                <ul>
+                    <!-- Task Master 3000 -->
+                    <li><h5 class="grey-text text-darken-3 lighten-3">Task Master 3000. A way to streamline remote workers task load.</h5></li>
+
+                    <li><a class="blue-grey-text text-darken-2" href="https://github.com/framples/Boards-of-Canada" target="_blank"><i class="material-icons">code</i>GitHub Repo</a></li>
+                    <li><a class="blue-grey-text text-darken-2" href="https://boards-of-canada.herokuapp.com/" target="_blank"><i class="material-icons">devices</i>Heroku App</a></li>
+
+                    <!-- Project Nutrition -->
+                    <li><h5 class="grey-text text-darken-3 lighten-3">Project Nutrition a healthy way to see what's really in your food, you are what you eat.</h5></li>
+
+                    <li><a class="blue-grey-text text-darken-2" href="https://github.com/jake-m-carlson/fuzzy-guacamole" target="_blank"><i class="material-icons">code</i>GitHub Repo</a></li>
+                    <li><a class="blue-grey-text text-darken-2" href="https://jake-m-carlson.github.io/fuzzy-guacamole/" target="_blank"><i class="material-icons">devices</i>GitHub IO</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="public/images/barcelona.jpg" class="responsive-img"></div>
+    </div>
 
     <!-- <div class="container">
     </div> -->
